@@ -1,0 +1,1553 @@
+.togglebar{
+  display: none;
+}
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}
+
+*{
+	padding: 0;
+	margin:0;
+}
+.step-header h2{
+	font-size:38px;
+	font-weight: 700;
+	line-height: 44px;
+}
+h4 {
+    font-family: 'Neuzeit Grotesk';
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 30px;
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+body {
+	font-family:'Noto Sans', sans-serif;
+  }
+@font-face{
+    font-family: 'Neuzeit Grotesk';
+    src: local('Neuzeit Grotesk Regular'), local('Neuzeit-Grotesk-Regular'),
+        url('fonts/NeuzeitGro-Reg.woff2') format('woff2'),
+        url('fonts/NeuzeitGro-Reg.woff') format('woff'),
+        url('fonts/NeuzeitGro-Reg.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Segoe UI Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Regular'), url('fonts/Segoe UI.woff') format('woff');
+    }
+	@font-face {
+		font-family: 'Segoe UI Bold';
+		font-style: normal;
+		font-weight: normal;
+		src: local('Segoe UI Bold'), url('Segoe UI Bold.woff') format('woff');
+		}
+h2, h3, h4{
+	font-family: 'Neuzeit Grotesk';
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+}
+/*================== Home Page Style Sheet===========================*/
+/*================== Header ===========================*/
+
+.header{
+	margin:10px 0 0 0;
+}
+.header .navbar-brand img{
+	width:110px;
+	margin-top:-12px;
+}
+.header .navbar-nav .nav-item{
+
+	padding:0 10px;
+}
+.navbar ul li a{
+	font-size:18px;
+	font-weight: 500;
+	color:#152247 !important;	
+	font-family: 'Segoe UI';
+}
+.navbar ul li a:hover{
+	text-decoration: underline;
+}
+.header .header-right span{
+	padding:0 5px;
+}
+.header .header-right .iheat-sky-icon{
+	width:140px;
+}
+.header .header-right .phone{
+	font-size:18px;
+	font-weight: 600;
+	color:#152247 !important;	
+	font-family: 'Segoe UI';
+}
+.header .header-right button{
+	font-family: 'Segoe UI';
+	font-size:16px;
+	font-weight: 600;
+	line-height: 24px;
+	background:#dc3545;
+	color:#fff;
+}
+
+
+/*================== Header-bottom ===========================*/
+.header-bottom-desktop{
+	background:#152247;
+}
+.header-bottom-mobile{
+	display: none;
+}
+.header-bottom-desktop ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left:150px;
+	padding-right:150px;
+}
+.header-bottom-desktop ul li{
+	color:#fff !important;
+	list-style: disc;
+	margin-top: 10px;
+	font-family: 'Segoe UI';
+	font-size:14px;
+	font-weight: 600;
+}
+
+/*Hero Section*/
+.hero{
+	text-align: center;
+}
+.hero-title{
+	padding-top:50px;
+}
+.hero-title h1{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 60px;
+	color:#152247;
+}
+.hero-title p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color:#212529;
+}
+.hero-title ul li{
+	list-style:none;
+	font-size: 18px;
+	color:#505356;
+	line-height: 30px;
+	font-weight: 500;
+}
+.hero-title ul li i{
+	padding-right:10px;
+}
+.hero-title button btn{
+	padding:20px 40px;
+}
+.star-rating{
+	padding-top:30px;
+}
+.checked{
+	color: #fff;
+	background:#00B67A;
+	padding:4px;
+	font-size:14px;
+}
+.hero-logos{
+	padding:20px 0;
+	border-top:1px solid #EFF4FD;
+}
+section .hero-logo img{
+	width: 80px;
+	height: 30px;
+	vertical-align: middle;
+	
+}
+
+/*Steps Sections*/
+.steps{
+	padding:80px 0;
+	background:#eff4fd !important;
+	text-align: center;
+}
+.step-header{
+	padding-bottom: 30px;
+}
+.step-header h4{
+	font-size:14px;
+	font-weight: 700;
+	line-height: 30px;
+	color:#9cadcc;
+}
+.step-header h2{
+	font-size:38px;
+	font-weight: 700;
+	line-height: 44px;
+	color:#152247;
+}
+section .single-step h3{
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 31px;
+	color: #152247;
+	padding:20px 0;
+}
+section .single-step p{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #152247;
+}
+section .step-btn button{
+	font-family: 'Segoe UI';
+	font-weight: 500;
+	font-size:20px; 
+	padding:10px 30px; 
+	margin-top: 20px;
+	background:#dc3545;
+}
+
+/* Benefits Section*/
+.benefits{
+	padding:80px 0;
+}
+.benefits-left{
+	padding: 0;
+	margin:0;
+}
+.benefits-item{
+	position:relative;
+	margin-right:100px;
+}
+.benefits-item img{
+	position:absolute;
+}
+.benefits-item h3{
+	margin-left:100px;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 31px;
+	color: #212529;
+}
+.benefits-item p{
+	margin-left:100px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #212529;
+}
+.benefits-right{
+	padding-left: 20px;
+}
+.benefits-right p{
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 30px;
+	color: #9c9c9c;
+}
+.benefits-right h2{
+	font-size: 38px;
+	font-weight: 600;
+	line-height: 44px;
+	color: #212529;
+	padding-top:5px;
+}
+.benefits-item{
+	padding:5px 0;
+}
+section .benefits-btn button{
+	font-family: 'Segoe UI';
+	font-weight: 500;
+	font-size:20px; 
+	padding:8px 20px;
+	background:#dc3545;
+}
+
+/*Boiler Section*/
+.boilers{
+	padding:80px 0;
+	background:#eff4fd !important;
+}
+.boilers-left{
+	padding-left: 100px;
+	border-right: 1px solid #d7e0f3 !important;
+}
+
+.boiler-items{
+	text-align: center;
+	padding-right: 50px;
+	padding-top: 20px;
+}
+.boilers-left p{
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 30px;
+	color: #9cadcc;
+}
+.boilers-left h2{
+	font-size: 38px;
+	font-weight: 600;
+	line-height: 44px;
+	color: #212529;
+}
+.item-left h2{
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 31px;
+	color: #212529;
+}
+.item-left p{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #212529;
+}
+
+.boilers-right{
+	background:#9cadcc;
+	padding:20px 0;
+}
+section .boilers-btn button{
+	font-family: 'Segoe UI';
+	font-weight: 500;
+	font-size:20px; 
+	padding:8px 20px; 
+	margin-top: 30px;
+	background:#dc3545;
+}
+/*slider*/
+.slider-text h3{
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 31px;
+	color: #fff !important;
+}
+.slider-text p{
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	color: #fff !important;
+}
+.slider-img img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  .carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(134, 25, 25, 0.295) !important; 
+    background-color: transparent;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+/*Payment Section */
+.payment{
+	padding:80px 0 0 0;
+	background:#fff !important;
+	text-align: center;
+}
+section .payment-title p{
+	padding-bottom:30px;
+}
+section #payment-card{
+	width:100%;
+	height:370px;
+	
+	
+}
+section #card-img-top{
+	width:80px; 
+	height:80px; 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+	margin-top:30px;
+}
+
+section .card-body h2{
+	font-family: 'Neuzeit Grotesk';
+	font-size:26px;
+	line-height: 31px;
+	font-weight: 700;
+	color:#212529;
+}
+section .card-body p{
+	font-size:18px;
+	line-height: 30px;
+	font-weight: 400;
+	color:#212529;
+}
+section .card-body button{
+	font-size:20px; 
+	padding:8px 20px; 
+	background:#152247;
+}
+section .card-body button:hover{
+
+	background:#091024;
+}
+
+
+/*Blog Section*/
+.blog{
+	padding:80px 0 0 0;
+	background-image: url("img/background-illustration.png");
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+}
+
+section #blog-card{
+	height:420px;
+}
+section #blog-card h4 {
+	position: absolute;
+	padding: 1px 8px;
+	background: #152247;
+	color: #fff;
+	left: 0;
+	top: 137px;
+}
+
+.blog-title h4{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 30px;
+	color: #aeb1b7;
+	text-align: center;
+}
+.blog-title h2{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 44px;
+	color: #212529;
+	text-align: center;
+}
+.blog-title p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #212529;
+	text-align: center;
+	padding:15px 0;
+}
+section .card-body h2{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 31px;
+	color: #0b1123;
+}
+section .card-body p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #0b1123;
+	text-align: left;
+	padding-bottom: 43px;
+}
+section .blog-btn{
+	padding: 50px 0;
+	
+}
+section .blog-btn button{
+	font-size:20px; 
+	padding:8px 20px; 
+	background:#152247;
+	margin-left:auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+/*Offers Block*/
+.offers-block-left{
+	background:#EB4F4F;
+	padding:50px 0;
+	text-align: center;
+	width:50%;
+	float:left;
+}
+.offers-block-left h2{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 44px;
+	color: #fff;
+}
+.offers-block-left p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #fff;
+	text-align: center;
+}
+.offers-block-right{
+	background:#152247;
+	padding:50px 0;
+	text-align: center;
+	width: 50%;
+	float:right;
+	padding-bottom: 134px;
+}
+.offers-block-right h2{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 44px;
+	color: #fff;
+}
+.offers-block-right p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #fff;
+	text-align: center;
+}
+
+/*Testimonial or Customer Review*/
+.testimonial{
+	padding:80px 0;
+	text-align: center;
+	background:#fff;
+	position:relative;
+}
+section .testimonial-title h2{
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 44px;
+	color: #152247;
+}
+section .star-rating{
+	padding-bottom: 50px;
+}
+section .testim-box {
+	width: 100%;
+	height: auto;
+	text-align: left;
+	padding: 15px;
+	box-shadow: 0px 2px 1px 0px #dddddd;
+    background: #F8F9FA;
+	border-radius:5px;
+}
+section .content-slider{
+	list-style: none outside none;
+	padding-left: 0;
+    margin: 0;
+	border:none;
+}
+section .content-slider li{
+	padding:0px;
+}
+
+section .rating-star-01 span{
+	background:#00B67A;
+	color:#fff;
+	padding:4px 5px;
+}
+section .testim-box-text-area h2{
+	font-family: 'Segoe UI Regular';
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 30px;
+}
+section .testim-box-text-area p{
+	font-family: 'Segoe UI Regular';
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: left;
+}
+section .testim-box-text-area h4{
+	font-family: 'Segoe UI Regular';
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 30px;
+	text-align: left;
+}
+/* Action Section*/
+.action{
+	background-image: url("img/background-illustration.png");
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	text-align: center;
+	background-color: #eff4fd;
+    padding: 80px 20px;
+    position: relative;
+	bottom: 0;
+}
+section .htw-hero-hero-title{
+	
+}
+section .action-text-area{
+	text-align: center;
+}
+section .action-text-area h2{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 38px;
+	font-weight: 900;
+	line-height: 44px;
+	color:#152247;
+}
+section .action-text-area p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color:#152247;
+}
+section .action-text-area button{
+	font-size:20px;
+	padding:8px 20px;
+	font-family: 'Segoe UI';
+	font-weight: 700;
+	background:#dc3545 !important;
+}
+/*Footer Area*/
+
+.footer{
+	padding:30px 0;
+	background:#152247;
+}
+section .footer-logo img{
+	padding-bottom: 10px;
+}
+section .footer-logo ul{
+	margin:0;
+	padding:0;
+	display: block;
+}
+section .footer-logo ul li{
+	list-style: none;
+	padding:5px 0;
+	color:#eeeeee;
+	font-size:18px;
+	font-family: 'Segoe UI';
+	font-weight: 400;
+}
+section .footer-logo ul li a{
+	text-decoration: none;
+	padding:5px 10;
+	font-size:18px;
+	line-height: 28px;
+	font-weight: 400;
+	color:#eeeeee;
+	font-family: 'Segoe UI';
+}
+section .footer-logo .social-icon span a{
+	text-decoration: none;
+	color:#fff;
+	padding:5px 5px;
+	font-size:20px;
+	font-family: 'Segoe UI';
+	font-weight: 400;
+}
+section .page-footer ul{
+	margin:0;
+	padding:0;
+	display: block;
+}
+section .page-footer ul li{
+	list-style: none;
+}
+section .page-footer ul li a{
+	text-decoration: none;
+	color:#fff;
+	font-size:18px;
+	line-height: 30px;
+	font-weight: 400;
+	color:#eeeeee;
+	font-family: 'Segoe UI';
+}
+section .page-footer ul li a:hover{
+	text-decoration: underline;
+}
+section .copy-right ul{
+	margin:0;
+	padding:0;
+	display: block;
+}
+section .copy-right ul li{
+	list-style: none;
+	padding:5px 0;
+	color:#eeeeee;
+	font-size:18px;
+	font-family: 'Segoe UI';
+	font-weight: 400;
+}
+
+/*Footer Bottom section*/
+.footer-bottom{
+	padding:30px 0;
+	background:#1D2A50;
+}
+section .footer-bottm-text p{
+	font-family: 'Segoe UI';
+	font-weight: 400;
+	font-size:12px;
+	line-height: 18px;
+	color:#888fa0;
+}
+
+
+/*
+==========================================
+//				How to Work 		  	//
+==========================================
+*/
+
+section .htw-hero-hero-title{
+	background-image: url("img/background-illustration.png");
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	text-align: center;
+	background-color: #eff4fd;
+    padding: 80px 20px;
+    position: relative;
+	bottom: 0;
+}
+section .htw-hero-hero-title h4{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 30px;
+	color:#9cadcc;
+}
+section .htw-hero-hero-title h2{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 50px;
+	font-weight: 700;
+	line-height:40px;
+	color:#212529;
+}
+section .htw-hero-hero-title p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color:#212529;
+}
+
+/*Steps*/
+.htw-steps{
+	padding: 10px 0;
+	background: #fff;
+	border-bottom:1px solid #ddd;
+	
+}
+section .htw-steps-group{	
+	background: #fff;
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	padding:0 0 0 100px;
+}
+section .single-step h4{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 10px;
+	color:#9eafcd;
+	letter-spacing: 2.5px;
+}
+section .single-step h2 {
+	font-family: 'Neuzeit Grotesk';
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 10px;
+	color: #152247;
+	
+}
+
+/*About us*/
+#about-us-mobile{
+    display: none;
+}
+.about-us{
+	padding: 80px 0;
+}
+section .about-us-left{
+	background-image: url("img/how-to-work/light-bubble.png");
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	
+
+}
+section .about-us-left img{
+	width: 75%;
+	height:auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 1px 7px 26px #0000001a;
+}
+section .abount-us-right{
+	padding:30px 40px;
+	background:rgb(239 244 253);
+}
+section .abount-us-right h2{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 44px;
+	color:#152247;
+}
+section .abount-us-right p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color:#152247;
+}
+section .abount-us-right ol li{
+	padding:3px 0;
+	font-size:18px;
+	line-height: 30px;
+	font-weight: 400;
+	color:#152247;
+}
+section .hero-btn button{
+	font-size:20px;
+	padding:8px 20px;
+	font-family: 'Segoe UI';
+	font-weight: 700;
+	background:#dc3545 !important;
+}
+
+/*Step Section*/
+.step-section{
+	padding: 80px 0;
+}
+section .step-section-right{
+	background-image: url("img/how-to-work/red-bubble.png");
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	
+
+}
+section .step-section-right img{
+	width: 75%;
+	height:auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+section .step-section-left{
+	padding:30px 40px;
+	background:rgb(236, 87, 87);
+	color:#fff;
+	
+}
+section .step-section-left h2{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 44px;
+}
+section .step-section-left p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+section .hero-btn button{
+	font-size:20px;
+	padding:8px 20px;
+	font-family: 'Segoe UI';
+	font-weight: 700;
+	background:#dc3545 !important;
+}
+
+/*FAQ Block*/
+.faq-block{
+	padding:50px 0;
+	background:#fff;
+}
+section .faq-block-left h4{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 30px;
+	color:#9cadcc;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+}
+section .faq-block-left h2{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 44px;
+	color:#212529;
+	letter-spacing: -1px;
+}
+section .faq-block-left p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color:#212529;
+}
+.accordion {
+	background-color: #fff;
+	color: #212529;
+	cursor: pointer;
+	padding: 10px;
+	width: 100%;
+	border: none;
+	text-align: left !important;
+	outline: none;
+	font-size: 20px;
+	transition: 0.4s;
+	font-family: 'Neuzeit Grotesk';
+	font-weight: 700;
+  }
+  
+
+  
+  .accordion:after {
+	content: '\002B';
+	color: #777;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+  }
+  
+  .active:after {
+	content: "\2212";
+	
+  }
+  
+  .panel {
+	padding: 0 10px;
+	background-color: #fff;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	font-size: 18px;
+	line-height: 31px;
+	text-align: justify !important;
+  }
+
+  /*why-choose-us*/
+  .why-choose-us{
+	padding:80px 0;
+  }
+  .why-choose-us h4{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 30px;
+	color:#9cadcc;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	text-align: center;
+  }
+  .why-choose-us h2{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 44px;
+	color:#212529;
+	letter-spacing: -1px;
+	text-align: center;
+	padding-bottom: 30px;
+  }
+  section .why-choose-us-item{
+	position:relative;
+	width: 100%;
+  }
+  section .why-choose-us-item-image{
+	float: left;
+  }
+  section .why-choose-us-item-content{
+	position: absolute;
+	float:right ;
+	margin-left:110px;
+  }
+  section .why-choose-us-item-content h3{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 31px;
+	color:#212529;
+	letter-spacing: -1px;
+  }
+  section .why-choose-us-item-content p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color:#212529;
+}
+
+
+/*
+==========================================
+//				Boiler Help 		  	//
+==========================================
+*/
+#blog .blog-pagination{
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/*
+==========================================
+//				FAQs Page		  	//
+==========================================
+*/
+.faq-block{
+	padding: 20px 0;
+	text-align: center !important;
+}
+section .faq-block-title h4{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 30px;
+	color:#9cadcc;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+}
+section .faq-block-title h2{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 50px;
+	color:#152247;
+	letter-spacing: -1px;
+}
+section .faq-block-title p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color:#212529;
+	padding-bottom: 10px 0;
+}
+section .faq-title h2{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 44px;
+	color:#212529;
+	letter-spacing: -1px;
+	text-align: left !important;
+	padding-left:7px;
+}
+
+
+
+/*
+==========================================
+//				Contact us Page		  	//
+==========================================
+*/
+
+.contact-us{
+	padding:80px 0;
+	background:#fff;
+}
+section .contact-us-content{
+	padding:0 100px;
+}
+section .contact-us-content h4 {
+    font-family: 'Neuzeit Grotesk';
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 30px;
+	color:#9cadcc;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+}
+section .contact-us-content h2 {
+    font-family: 'Neuzeit Grotesk';
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 60px;
+	color:#152247;
+	letter-spacing: -1px;
+}
+section .contact-us-content h3 {
+    font-family: 'Neuzeit Grotesk';
+	font-size: 26px;
+	font-weight:700;
+	line-height: 31px;
+	color:#152247;
+}
+section .contact-us-content p{
+    font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color:#212529;
+}
+section .contact-us-btn .phone {
+    font-size: 16px;
+	line-height: 24px;
+	color:#152247;
+	font-weight:400;
+}
+section .contact-us-btn .btn-phone {
+    background-color: #ffd35c;
+    border-radius: 50px;
+    display: table;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 10px 32px;
+	color:#212529;
+}
+section .contact-us-btn{
+	border-top:1px solid #9c9c9c;
+	padding:20px 0;
+	margin-top:30px;
+}
+section .contact-us-form{
+	width: 75%;
+}
+section .form-group{
+	padding:10px 0;
+}
+section .form-group input{
+	border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    height: 60px;
+    outline: none;
+    text-indent: 10px;
+    width: 100%;
+}
+section .contact-us-form button{
+	font-size:20px;
+	padding:8px 20px;
+	font-family: 'Segoe UI';
+	font-weight: 700;
+	background:#dc3545 !important;
+}
+
+/*
+==========================================
+//	Complaints Procedure Section	  	//
+==========================================
+*/
+
+.complaints{
+	padding:40px 50px;
+}
+section .complaints-title h2{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 60px;
+	color:#152247;
+	letter-spacing: -1px;
+	text-align: center;
+}
+section .complaints-title p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color:#212529;
+}
+
+/*
+==========================================
+//	Best Combi Boilers	page		  	//
+==========================================
+*/
+section .best-combi-boiler-content h1{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 60px;
+	color:#212529;
+}
+section .best-combi-boiler-content h2{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 44px;
+	color:#212529;
+}
+
+
+section .title-01 p, section .title-02 p, section .title-03 p, section .title-04 p, section .title-05 p, section .title-06 p, section .title-07 p, section .title-08 p, section .title-09 p, section .title-10 p, section .title-11 p, section .title-12 p, section .title-13 p, section .title-14 p, section .title-15 p, section .title-16 p, section .title-17 p, section .title-18 p, section .title-19 p, section .title-20 p, section .title-21 p, section .title-22 p, section .title-23 p, section .title-24 p, section .title-25 p, section .title-26 p, section .title-27 p, section .title-28 p, section .title-29 p, section .title-30 p, section .title-31 p, section .title-32 p, section .title-33 p, section .title-34 p, section .title-35 p, section .title-36 p, section .title-37 p, section .title-38 p, section .title-39 p, section .title-40 p, section .title-41 p, section .title-42 p, section .title-43 p, section .title-44 p, section .title-45 p, section .title-46 p, section .title-47 p, section .title-48 p, section .title-49 p, section .title-50 p, section .title-51 p, section .title-52 p, section .title-53 p, section .title-54 p, section .title-55 p, section .title-56 p, section .title-57 p, section .title-58 p, section .title-59 p, section .title-60 p, section .title-61 p, section .title-62 p, section .title-63 p, section .title-64 p, .title-65 p, section .title-66 p, section .title-67 p, section .title-68 p, section .title-69 p, section .title-70 p, section .title-71 p, section .title-72 p, section .title-73 p, section .title-74 p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color:#212529;
+	text-align: left;
+}
+section .best-combi-sidebar-control{
+	margin-top: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}
+section .add-box{
+	background:#EFF4FD;
+	padding:20px;
+	text-align: center;
+	margin:30px 0;
+	color:#1f243d;
+}
+section .add-box h2{
+	font-family: 'Neuzeit Grotesk';
+	font-size:38px;
+	line-height: 44px;
+	font-weight: 700;
+	color:#1f243d;
+}
+
+section .add-box p{
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+	color:#1f243d;
+	font-weight: 400;
+}
+section .best-combi-sidebar-link ul li{
+	display: block;
+	list-style: none;
+	padding:5px 0;
+}
+section .best-combi-sidebar-link ul li a{
+	font-size:15px;
+	line-height: 24px;
+	font-weight: 400;
+	
+	
+}
+/*Blog Section*/
+.best-boiler-blog{
+	padding:50px 0 0 0;
+	background:#EFF4FD;
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+	margin-top: 30px;
+}
+.blog-title h4{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 30px;
+	color: #aeb1b7;
+	text-align: center;
+}
+.blog-title h2{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 44px;
+	color: #212529;
+	text-align: center;
+}
+.blog-title p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #212529;
+	text-align: center;
+	padding:15px 0;
+}
+section .card-body h2{
+	font-family: 'Neuzeit Grotesk';
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 31px;
+	color: #0b1123;
+}
+section .card-body p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #0b1123;
+	text-align: left;
+	padding-bottom: 43px;
+}
+section .blog-btn{
+	padding: 50px 0;
+	
+}
+section .blog-btn button{
+	font-size:20px; 
+	padding:8px 20px; 
+	background:#152247;
+	margin-left:auto;
+	margin-right: auto;
+	display: block;
+}
+/*
+==========================================
+//	Best Combi Boilers	page		  	//
+==========================================
+*/
+
+.video-wrapper {
+    height: 0;
+    margin: 10px 0;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    position: relative;
+}
+
+/*
+==========================================
+//	VIessmann page		  	//
+==========================================
+*/
+
+.viessmann{
+	padding: 50px 0;
+	text-align: center;
+}
+section .viessman-logo img{
+	width: 140px;
+}
+section .viessman-content h2{
+	font-family: 'Neuzeit Grotesk';
+	font-size:50px;
+	font-weight: 700;
+	line-height: 60px;
+	color:#152247;
+}
+section .viessmann-logo-btn{
+	padding-bottom: 80px;
+}
+section #vissman-btn{
+	background:#eb4f4f;
+	border-color:#dc3545;
+	color:#fff;
+}
+section #vissman-btn:hover{
+	background:#C82333;
+	border-color:#C82333;
+	color:#fff;
+}
+section #vissman-btn-right{
+	background:#28a745;
+	color:#fff;
+	border-color:#28a745;
+}
+section #vissman-btn-right:hover{
+	background:#218838;
+	color:#fff;
+	border-color:#218838;
+}
+
+
+section #viessmann-card #viessmann-card-img-top{
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:20px;
+}
+
+section .card-body .product-content-pill{
+	background:#28a745;
+	margin-right:10px;
+	color:#fff;
+	border-radius:10px;
+	padding:3px 5px;
+	font-weight: 600;
+}
+section .card-body .product-content-pill-right{
+	background:#0b173a;
+	color:#fff;
+	border-radius:10px;
+	padding:3px 5px;
+	font-weight: 600;
+}
+section .card-body h2{
+	font-family: 'Neuzeit Grotesk';
+	font-size:19px;
+	font-weight: 700;
+	line-height: 24px;
+	color:#212529;
+	text-align: center;
+	letter-spacing: -1px;
+}
+section .card-body p{
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+	font-weight: 400;
+	line-height: 30px;
+	color:#212529;
+	text-align: center;
+	padding-bottom: 10px;
+}
+section #viessman-product-btn{
+	background:#dc3545;
+	border-color:#dc3545;
+}
+
+section #viessman-product-right-btn{
+	margin-left:-5px;
+	border-radius:0 0 3px 3px;
+	background:#28a745;
+	border-color: #28a745;
+}
+section .viessmann-btn{
+	padding-bottom: 20px;
+}
+section #viessmann-card {
+    border: 1px solid #eee;
+}
+
+
+.vissman-content{
+	background:#F4F4F5;
+}
+section .vissman-content-area h2{
+	font-family: 'Neuzeit Grotesk';
+	font-size:38px;
+	font-weight: 700;
+	line-height: 44px;
+	color:#212529;
+	letter-spacing: -1px;
+}
+section .vissman-content-area p{
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+	font-weight: 400;
+	line-height: 30px;
+	color:#212529;
+}
+
+section .vissman-content-area ul li{
+	list-style: none;
+}
+section .vissman-content-area ul li a{
+	color:#212529;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+}
+
+
+section .cookis-header h2{
+	font-size:50px;
+	line-height: 60px;
+	font-weight: 700;
+	text-align: center;
+	padding:50px 0;
+	color:#212529;
+}
+
+
+/* SLIDER*/
+
+section #carousel-inner-bg{
+	background-image: url("img/blue-bubble.png");
+	width: 80%;
+	height: auto;
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: contain;
+	
+}
+section .text-right #next-btn {
+	font-weight: 900;
+	padding: 15px 18px;
+	border-radius: 50px;
+	border: 1px solid #cdcdcd;
+	color: #212529;
+	margin-top: 26px;
+	margin-left: -142px;
+}
+section .slider-image{
+	width:100%;	
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+section .slider-image img{
+	width:80%;
+	height:400px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+section .slider-content{
+	text-align:center;
+	width:100%;
+}
+section .slider-content h2{
+	font-size:24px;
+	font-weight:700;
+	line-height:31px;
+	color:#212529;
+	letter-spacing:-1px;
+}
+section .slider-content h4{
+	font-size:20px;
+	font-weight:700;
+	line-height:24px;
+	color:#212529;
+	padding-bottom:20px;
+}
+section .slider-content span{
+	background:#0b173a!important;
+	font-size:14px;
+	font-weight:700;
+	line-height:14px;
+	color:#fff;
+	border-radius:10px;
+	padding:4px 8px;
+}
